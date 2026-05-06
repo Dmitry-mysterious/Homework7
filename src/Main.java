@@ -2,14 +2,10 @@ void main() {
     // Задача 1
     System.out.println("--|| Задача 1 ||--");
 
-    int firstFriday = 4;
-    int i = 1;
+    int friday = 4;
 
-    for (; i <= 31; i++) {
-        if (i % firstFriday == 0) {
-            System.out.println("Сегодня пятница, " + i + "-е число. Необходимо подготовить отчет");
-            i += 7;
-        }
+    for (; friday <= 31; friday += 7) {
+        System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет");
     }
 
     System.out.println();

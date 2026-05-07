@@ -25,7 +25,7 @@ void main() {
 
     int dist = 0;
     for (; dist <= 42_195; dist += 500) {
-        System.out.println("Держитесь! Осталось " + distanse + " метров");
+        System.out.println("Держитесь! Осталось " + dist + " метров");
     }
 
     System.out.println();
